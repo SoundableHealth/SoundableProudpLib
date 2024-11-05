@@ -1,16 +1,24 @@
 # iOS SDK usage guide
 
+### Sample App link: 
+https://github.com/SoundableHealth/soundable-proudp-sample
+
 ### 1. Add SoundableProudPLib package
 
 1. Xcode > File > Add Packages Dependencies...
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/12abf0e6-b87e-4ce6-9d33-36b4a44db905">
+
 2. Input respository url: https://github.com/SoundableHealth/SoundableProudpLib
-3. Click "Add Package"
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4d196efa-3738-4f8c-8247-a51f1d438f77">
+
+4. Click "Add Package"
 
 
 ### 2. Allow microphone usage
 1. In Xcode, click "Info" for your Targets application.
 2. Click "+" and select "Privacy - Microphone Usage Description".
 3. Write a microphone permission request message.
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/c1453697-bffd-4455-abb2-b30c2aa474d7">
 
 
 ### 3. Initialize SDK
